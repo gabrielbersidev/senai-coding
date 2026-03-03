@@ -90,7 +90,7 @@ Os próximos semestres serão adicionados conforme avanço no curso, mantendo a 
 
 - Lógica de Programação  
 - Fluxogramas  
-- (Adicionar linguagens conforme o curso avançar)
+- Java8
 
 ---
 
