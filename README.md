@@ -23,6 +23,7 @@ senai-algoritmos/
 ├── 1-semestre/
 │   ├── algoritmos-manuscrito/
 │   └── flowalgorithm/
+│   └── java-projects/
 │
 ├── 2-semestre/
 │   └── (a definir)
