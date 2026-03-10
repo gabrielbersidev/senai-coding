@@ -1,4 +1,4 @@
-package pctAula01;
+package pctAula01ex01;
 
 public class Exemplo01 {
 	public static void main(String[] args) {
