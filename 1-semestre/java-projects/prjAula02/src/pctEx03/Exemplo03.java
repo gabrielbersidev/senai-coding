@@ -11,7 +11,7 @@ public class Exemplo03 {
         try(Scanner userInput = new Scanner(System.in)){
             System.out.print("Digite o número que você deseja visualizar a tabuada: ");
             int multiplicando = userInput.nextInt();
-            for (int i = 1; i < 101; i++) {
+            for (int i = 1; i < 100001; i++) {
                 System.out.println(multiplicando*(multiplicador+i));
             }
 
