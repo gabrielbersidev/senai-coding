@@ -1,6 +1,6 @@
-package pctExc6;
+package pctExc7;
 
-public class Exercicio06 {
+public class Exercicio07 {
     public static void main(String [] args) {
         double celsius = 14;
 
