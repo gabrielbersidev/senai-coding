@@ -25,7 +25,7 @@ public class Exercicio03 {
         if (saldoMedio>3000){
             double creditoEspecial = (saldoMedio/100)*50;
             double saldoMedioFinal = (saldoMedio+creditoEspecial);
-            System.out.println("Seu saldo médio + acréscimo de crédito especial de 50%, resultou em R$" + saldoMedioFinal);
+            System.out.println("Seu saldo médio + acréscimo de crédiito especial de 50%, resultou em R$" + saldoMedioFinal);
 
         }
 
