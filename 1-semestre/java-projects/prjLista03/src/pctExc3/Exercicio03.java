@@ -6,7 +6,7 @@ public class Exercicio03 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite abaixo seu Saldo Médio para verificação de possível Crédito Especial aplicado:");
-        double saldoMedio = sc.nextInt();
+        double saldoMedio = sc.nextDouble();
 
         if (saldoMedio<=500){
             System.out.println("Seu saldo médio foi de " + saldoMedio + "e não houve crédito especial");
