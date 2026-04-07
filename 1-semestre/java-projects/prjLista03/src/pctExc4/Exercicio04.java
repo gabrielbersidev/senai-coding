@@ -1,6 +1,5 @@
 package pctExc4;
 
-
 import java.util.Scanner;
 
 public class Exercicio04 {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>prjAula05</name>
+	<name>prjListaCase</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1774976306329</id>
+			<id>1774976306396</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
