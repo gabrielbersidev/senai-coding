@@ -8,12 +8,9 @@ public class Exercicio04 {
         System.out.println("Digite uma palavra qualquer para ser invertida: ");
 
         String userString = sc.nextLine();
+        String invertida = new StringBuilder(userString).reverse().toString();
 
-        String userStringLower = userString.toLowerCase();
-
-        String reverse = new StringBuilder(userStringLower).reverse().toString();
-        
-        System.out.println(reverse);
+        System.out.println(invertida);
         sc.close();
     }
 }
