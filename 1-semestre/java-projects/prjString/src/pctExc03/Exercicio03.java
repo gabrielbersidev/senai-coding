@@ -1,7 +1,6 @@
 package pctExc03;
 
 import java.util.Scanner;
-// 3)Faça um programa que conte o numero de 1’s que aparecem em um string. Exemplo: “0011001” -> 3
 
 public class Exercicio03 {
     public static void main(String[] args) {

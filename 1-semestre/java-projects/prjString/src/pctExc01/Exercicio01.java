@@ -8,7 +8,6 @@ public class Exercicio01 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite uma string qualquer: ");
-
         String userString = sc.nextLine();
 
         int numeroCaracteres = userString.length();
