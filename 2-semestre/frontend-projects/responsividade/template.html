@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Tim Burton</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #1a1a24;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        header{
+            background-color: #0d0d0d;
+            color: #e6e6e6;
+            text-align: center;
+            padding: 5vh 5%;
+        }
+
+        nav{
+            background-color: #243034;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding:10px;
+        }
+
+        nav a {
+            color: #d9d9d9;
+            text-decoration: none;
+        }
+
+        main{
+            width: 90%;
+            margin:30px auto;
+
+        }
+        .destaque{
+            background-color: #121216;
+            padding: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #e6e6e6;
+        }
+        .cards{
+            display:flex;
+            gap:20px;
+        }
+        .card{
+            width:33%;
+            min-height:25vh;
+            background-color: #262633;
+            color:#e6e6e6;
+            padding:20px;
+            text-align:center;
+        }
+
+        .destaque img,
+        .card img {
+            max-width: 100%;
+            height: auto;
+            margin: 15px 0;
+            border-radius: 20px;
+        }
+
+        footer{
+            background-color: #050505;
+            color: #8c8c8c;
+            text-align: center;
+            padding: 4vh 5%;
+            font-size: 25px;
+        }
+
+        @media (max-width: 600px){
+            nav{
+                flex-direction:column;
+                text-align: center;
+            }
+            .cards{
+                flex-direction:column;
+            }
+
+            .card{
+                width:100%;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Universo Tim Burton</h1>
+        <p>Gótico, excêntrico e poético: a arte do mestre do macabro</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Obras</a>
+        <a href="#">Personagens</a>
+        <a href="#">Estética</a>
+    </nav>
+
+    <main>
+        <section class="destaque">
+            <h2>Bem-Vindo ao Mundo das Sombras!</h2>
+
+            <img src="burton.webp" alt="Destaque Universo Tim Burton">
+
+            <p>Explore a genialidade visual, as listras pretas e brancas e a melancolia fascinante dos clássicos do cinema.</p>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <h2>O Estranho Mundo de Jack</h2>
+                <img src="jack.jpg" alt="O Estranho Mundo de Jack">
+                <p>O Rei da Cidade do Hallowe'en descobre a magia do Natal com resultados cômicos e assustadores.</p>
+            </div>
+
+            <div class="card">
+               <h2>Edward Mãos de Tesoura</h2> 
+               <img src="edward.jpg" alt="Edward Mãos de Tesoura">
+               <p>Uma fábula moderna e comovente sobre um jovem incompleto tentando se adaptar ao mundo suburbano.</p>
+            </div>
+
+             <div class="card">
+               <h2>Os Fantasmas se Divertem</h2> 
+               <img src="fantasmas.jpg" alt="Os Fantasmas se Divertem">
+               <p>Beetlejuice traz o lado mais divertido, caótico e extravagante do mundo dos mortos.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>Mundo Burton por Gabriel Bersi - 2026</footer>
+</body>
+</html>
