@@ -1,0 +1,45 @@
+.palco {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    background-color: rgb(62, 121, 101);
+}
+
+.caixa {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+    animation: mover 3s ease-in-out infinite alternate;
+    cursor: pointer;
+}
+
+@keyframes mover {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(160px, 0);
+    }
+    100% {
+        transform: translate(160px, -110px);
+    }
+}
+
+.caixa:hover {
+    background-color: blue;
+    animation-play-state: paused;
+}
+
+.caixa:active {
+    background-color: yellow;
+}
+
+.caixa:focus-visible {
+    outline: 4px solid white;
+    outline-offset: 4px;
+}

@@ -1,0 +1,28 @@
+.palco {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    background-color: rgb(62, 121, 101);
+}
+
+.caixa {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+    animation: ir-voltar 1.5s ease-in-out infinite; 
+}
+
+@keyframes ir-voltar {
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(160px);
+    }
+}
