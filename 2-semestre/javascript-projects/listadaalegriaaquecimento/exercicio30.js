@@ -14,9 +14,9 @@ if (idadeValida && notaValida && frequenciaValida && semPendencia && autorizacao
     console.log("inscrição aprovada");
 } else {
     console.log("inscrição recusada");
-    if (!idadeValida) console.log("motivo: Idade fora da faixa permitida (14 a 20 anos)");
-    if (!notaValida) console.log("motivo: Nota da prova inferior a 70");
+    if (!idadeValida) console.log("motivo: idadade fora da faixa permitida (14 a 20 anos)");
+    if (!notaValida) console.log("motivo: nota da prova inferior a 70");
     if (!frequenciaValida) console.log("motivo: Frequência inferior a 80%");
-    if (!semPendencia) console.log("motivo: Candidato possui pendências cadastrais");
-    if (!autorizacaoValida) console.log("motivo: Menor de idade sem autorização do responsável");
+    if (!semPendencia) console.log("motivo: Cadindidato possui pendências cadastrais");
+    if (!autorizacaoValida) console.log("motivo: Mmenor de idade sem autorização do responsável");
 }

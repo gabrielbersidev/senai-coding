@@ -13,5 +13,5 @@ if (consumoKwh < 0) {
     }
 
     let conta = consumoKwh * tarifa;
-    console.log(`Conta total: R$ ${conta.toFixed(2)}`);
+    console.log(`conta total: R$ ${conta.toFixed(2)}`);
 }
