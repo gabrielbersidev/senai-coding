@@ -2,7 +2,7 @@ let horas = 5;
 let clienteConveniado = true;
 
 if (horas <= 0) {
-    console.log("Número de horas inválido.");
+    console.log("número de horas inválido.");
 } else {
     let valor = 0;
     if (horas <= 2) {
@@ -15,5 +15,5 @@ if (horas <= 0) {
         valor *= 0.80;
     }
 
-    console.log(`Valor final: R$ ${valor.toFixed(2)}`);
+    console.log(`valor final: R$ ${valor.toFixed(2)}`);
 }

@@ -1,7 +1,7 @@
 let consumoKwh = 250;
 
 if (consumoKwh < 0) {
-    console.log("Consumo inválido.");
+    console.log("consumo inválido");
 } else {
     let tarifa = 0;
     if (consumoKwh <= 100) {

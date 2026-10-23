@@ -15,5 +15,5 @@ if (peso > 0 && altura > 0) {
         console.log("Obesidade");
     }
 } else {
-    console.log("Erro: Peso e altura devem ser maiores que zero.");
+    console.log("erro: peso e altura devem ser maiores que zero");
 }

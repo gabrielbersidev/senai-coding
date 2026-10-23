@@ -11,12 +11,12 @@ let semPendencia = !possuiPendencia;
 let autorizacaoValida = idade >= 18 || autorizacaoResponsavel;
 
 if (idadeValida && notaValida && frequenciaValida && semPendencia && autorizacaoValida) {
-    console.log("Inscrição aprovada");
+    console.log("inscrição aprovada");
 } else {
-    console.log("Inscrição recusada");
-    if (!idadeValida) console.log("Motivo: Idade fora da faixa permitida (14 a 20 anos).");
-    if (!notaValida) console.log("Motivo: Nota da prova inferior a 70.");
-    if (!frequenciaValida) console.log("Motivo: Frequência inferior a 80%.");
-    if (!semPendencia) console.log("Motivo: Candidato possui pendências cadastrais.");
-    if (!autorizacaoValida) console.log("Motivo: Menor de idade sem autorização do responsável.");
+    console.log("inscrição recusada");
+    if (!idadeValida) console.log("motivo: Idade fora da faixa permitida (14 a 20 anos)");
+    if (!notaValida) console.log("motivo: Nota da prova inferior a 70");
+    if (!frequenciaValida) console.log("motivo: Frequência inferior a 80%");
+    if (!semPendencia) console.log("motivo: Candidato possui pendências cadastrais");
+    if (!autorizacaoValida) console.log("motivo: Menor de idade sem autorização do responsável");
 }

@@ -2,7 +2,7 @@ let estoque = 4;
 let quantidadePedida = 6;
 
 if (quantidadePedida <= 0) {
-    console.log("Pedido inválido: a quantidade deve ser positiva");
+    console.log("Pedido inválido, a quantidade deve ser positiva");
 } else if (quantidadePedida <= estoque) {
     console.log("Venda autorizada");
     estoque -= quantidadePedida;

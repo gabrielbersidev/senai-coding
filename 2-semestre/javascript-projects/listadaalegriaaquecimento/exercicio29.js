@@ -5,16 +5,16 @@ let saldoCliente = 220;
 let clienteVIP = false;
 
 if (quantidade <= 0) {
-    console.log("Rejeitado: quantidade inválida.");
+    console.log("rejeitado: quantidade inválida");
 } else if (quantidade > estoque) {
-    console.log("Rejeitado: quantidade excede o estoque disponível.");
+    console.log("rejeitado: quantidade excede o estoque disponível");
 } else {
     let subtotal = quantidade * precoUnitario;
     let valorFinal = clienteVIP ? subtotal * 0.90 : subtotal;
 
     if (saldoCliente >= valorFinal) {
-        console.log(`Compra autorizada! Valor final: R$ ${valorFinal.toFixed(2)}`);
+        console.log(`compra autorizada! valor final: R$ ${valorFinal.toFixed(2)}`);
     } else {
-        console.log(`Rejeitado: saldo insuficiente (necessário R$ ${valorFinal.toFixed(2)}, disponível R$ ${saldoCliente.toFixed(2)}).`);
+        console.log(`rejeitado: saldo insuficiente (necessário R$ ${valorFinal.toFixed(2)}, disponível R$ ${saldoCliente.toFixed(2)}).`);
     }
 }
