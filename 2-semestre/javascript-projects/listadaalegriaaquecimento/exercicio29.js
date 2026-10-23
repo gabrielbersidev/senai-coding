@@ -13,7 +13,7 @@ if (quantidade <= 0) {
     let valorFinal = clienteVIP ? subtotal * 0.90 : subtotal;
 
     if (saldoCliente >= valorFinal) {
-        console.log(`compra autorizada! valor final: R$ ${valorFinal.toFixed(2)}`);
+        console.log(`coompra autorizada! valor final: R$ ${valorFinal.toFixed(2)}`);
     } else {
         console.log(`rejeitado: saldo insuficiente (necessário R$ ${valorFinal.toFixed(2)}, disponível R$ ${saldoCliente.toFixed(2)}).`);
     }
