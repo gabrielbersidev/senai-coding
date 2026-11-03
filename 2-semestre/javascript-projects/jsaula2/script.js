@@ -1,127 +1,319 @@
-// > maior
-// < menor
-// >= maior ou igual
-// <= menor ou igual
-// == igual
-// === estritamente igual
-// != diferente
-// !=== estritamente diferente
+// // // // // // // // > maior
+// // // // // // // // < menor
+// // // // // // // // >= maior ou igual
+// // // // // // // // <= menor ou igual
+// // // // // // // // == igual
+// // // // // // // // === estritamente igual
+// // // // // // // // != diferente
+// // // // // // // // !=== estritamente diferente
 
-// let numeroUm = 4;
-// let numeroDois = 6;
+// // // // // // // // let numeroUm = 4;
+// // // // // // // // let numeroDois = 6;
 
-// console.log(`O número ${numeroUm} é maior que ${numeroDois}? ${numeroUm > numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é maior que ${numeroDois}? ${numeroUm > numeroDois}`);
 
-// console.log(`O número ${numeroUm} é menor que ${numeroDois}? ${numeroUm < numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é menor que ${numeroDois}? ${numeroUm < numeroDois}`);
 
-// console.log(`O número ${numeroUm} é maior ou igual que ${numeroDois}? ${numeroUm >= numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é maior ou igual que ${numeroDois}? ${numeroUm >= numeroDois}`);
 
-// console.log(`O número ${numeroUm} é menor ou igual que ${numeroDois}? ${numeroUm <= numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é menor ou igual que ${numeroDois}? ${numeroUm <= numeroDois}`);
 
-// console.log(`O número ${numeroUm} é igual ao ${numeroDois}? ${numeroUm == numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é igual ao ${numeroDois}? ${numeroUm == numeroDois}`);
 
-// console.log(`O número ${numeroUm} é estritamente igual ao ${numeroDois}? ${numeroUm === numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é estritamente igual ao ${numeroDois}? ${numeroUm === numeroDois}`);
 
-// console.log(`O número ${numeroUm} é diferente de ${numeroDois}? ${numeroUm != numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é diferente de ${numeroDois}? ${numeroUm != numeroDois}`);
 
-// console.log(`O número ${numeroUm} é estritamente diferente de ${numeroDois}? ${numeroUm !== numeroDois}`);
+// // // // // // // // console.log(`O número ${numeroUm} é estritamente diferente de ${numeroDois}? ${numeroUm !== numeroDois}`);
 
-// Operadores Lógicos
+// // // // // // // // Operadores Lógicos
 
-// // Exemplo 1: && E
-// let idade = 20;
-// let possuiIngresso = true;
+// // // // // // // // // Exemplo 1: && E
+// // // // // // // // let idade = 20;
+// // // // // // // // let possuiIngresso = true;
 
-// console.log(idade >= 18 && possuiIngresso == true);
+// // // // // // // // console.log(idade >= 18 && possuiIngresso == true);
 
-// // || OU
-// // entrada clube
+// // // // // // // // // || OU
+// // // // // // // // // entrada clube
 
-// let possuiCarteirinha = false;
-// let possuiConvite = true;
-// console.log(possuiCarteirinha || possuiConvite);
+// // // // // // // // let possuiCarteirinha = false;
+// // // // // // // // let possuiConvite = true;
+// // // // // // // // console.log(possuiCarteirinha || possuiConvite);
 
-// // Não !
-// // chuva
+// // // // // // // // // Não !
+// // // // // // // // // chuva
 
-// let estaChovendo = false;
-// console.log(!estaChovendo);
+// // // // // // // // let estaChovendo = false;
+// // // // // // // // console.log(!estaChovendo);
 
 
-// Se e Senão - condições(estado, circunstância, exigência, característica)
+// // // // // // // // Se e Senão - condições(estado, circunstância, exigência, característica)
 
-// let idade = 20;
+// // // // // // // // let idade = 20;
 
-// if(idade >= 18){
-//     console.log("Você é maior de idade!")
-// } else {
-//     console.log("Você não é maior de idade!")
+// // // // // // // // if(idade >= 18){
+// // // // // // // //     console.log("Você é maior de idade!")
+// // // // // // // // } else {
+// // // // // // // //     console.log("Você não é maior de idade!")
+// // // // // // // // }
+// // // // // // // // let nota = 7;
+
+// // // // // // // // if (nota >= 9) {
+// // // // // // // //     console.log("Nota excelente!");
+// // // // // // // // } else if (nota >= 7) {
+// // // // // // // //     console.log("Nota regular!");
+// // // // // // // // } else if (nota >= 5) {
+// // // // // // // //     console.log("Nota ruim!");
+// // // // // // // // } else if (nota >= 3) {
+// // // // // // // //     console.log("Nota péssima!");
+// // // // // // // // } else {
+// // // // // // // //     console.log("Nota muito abaixo!");
+// // // // // // // // }
+
+// // // // // // // // let nota = 8;
+// // // // // // // // let frequencia = 80;
+
+// // // // // // // // if (nota >= 7 && frequencia >= 75){
+// // // // // // // //     console.log("Aluno aprovado!");
+// // // // // // // // }else if(nota >= 5 && frequencia >=60){
+// // // // // // // //     console.log("Aluno de recuperação!");
+// // // // // // // // }else{
+// // // // // // // //     console.log("Aluno reprovado!");
+// // // // // // // // }
+// // // // // // // let numeroUm = -15;
+// // // // // // // let numeroDois = 153;
+// // // // // // // let numeroTres = -90;
+
+// // // // // // // if (numeroUm > 0) {
+// // // // // // //     console.log(`O Número ${numeroUm} é positivo`);
+// // // // // // // } else {
+// // // // // // //     console.log(`O Número ${numeroUm} é negativo`);
+// // // // // // // }
+
+// // // // // // // if (numeroDois > 0) {
+// // // // // // //     console.log(`O Número ${numeroDois} é positivo`);
+// // // // // // // } else {
+// // // // // // //     console.log(`O Número ${numeroDois} é negativo`);
+// // // // // // // }
+
+// // // // // // // if (numeroTres > 0) {
+// // // // // // //     console.log(`O Número ${numeroTres} é positivo`);
+// // // // // // // } else {
+// // // // // // //     console.log(`O Número ${numeroTres} é negativo`);
+// // // // // // // }
+
+
+// // // // // // // let numeroQuatro = 3456;
+// // // // // // // let numeroCinco = 8857;
+// // // // // // // let numeroSeis = 16561561546512;
+
+// // // // // // // if (numeroQuatro % 2 === 0) {
+// // // // // // //     console.log(`O Número ${numeroQuatro} é par`);
+// // // // // // // } else {
+// // // // // // //     console.log(`O Número ${numeroQuatro} é ímpar`);
+// // // // // // // }
+
+// // // // // // // if (numeroCinco % 2 === 0) {
+// // // // // // //     console.log(`O Número ${numeroCinco} é par`);
+// // // // // // // } else {
+// // // // // // //     console.log(`O Número ${numeroCinco} é ímpar`);
+// // // // // // // }
+
+// // // // // // // if (numeroSeis % 2 === 0) {
+// // // // // // //     console.log(`O Número ${numeroSeis} é par`);
+// // // // // // // } else {
+// // // // // // //     console.log(`O Número ${numeroSeis} é ímpar`);
+// // // // // // // }
+
+
+
+// // // // // // // switch case
+
+// // // // // // // if switch
+// // // // // // // condicao simples if
+// // // // // // // dias da semana switch
+
+
+// // // // // // let dia = 3;
+
+// // // // // // switch (dia){
+// // // // // //     case 1:
+// // // // // //         console.log("Segunda-Feira")
+// // // // // //         break;
+// // // // // //     case 2:
+// // // // // //         console.log("Terça-Feira")
+// // // // // // };
+// // // // // //     case 3:
+// // // // // //         console.log("Terça-Q")
+// // // // // // };
+
+
+// // // // // const sinal = "vermelho";
+
+// // // // // switch (sinal) {
+// // // // //   case "vermelho":
+// // // // //     console.log("Pare! O sinal está vermelho.");
+// // // // //     break;
+// // // // //   case "amarelo":
+// // // // //     console.log("Atenção! O sinal está amarelo.");
+// // // // //     break;
+// // // // //   case "verde":
+// // // // //     console.log("Siga! O sinal está verde.");
+// // // // //     break;
+// // // // //   default:
+// // // // //     console.log("Sinal inválido!");
+// // // // // }
+
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+// // // // console.log("Bom dia, amados!");
+
+// // // let contador = 6;
+
+// // // while(contador > 5){
+// // //     console.log(`Contagem: ${contador}`);
+// // //     contador++;
+// // // }
+
+// // // // let contadorreverso = 10;
+
+// // // // while(contadorreverso >= 0){
+// // // //     console.log(`${contadorreverso}`);
+// // // //     cont--
+// // // // }
+// // // // console.log("Feliz ano novo!")
+
+
+// // // do while
+
+// //  a variável de controle estará fora da estruttra
+
+// //  o código vai rodar pelo menos uma vez
+
+// let n1 = 1;
+
+// do{
+//     console.log(`Número: ${n1}`)
+//     n1++;
+// } while (n1 <= 190000);
+
+// for(let i = 10; i>0; i--){
+//     console.log(i);
 // }
-// let nota = 7;
 
-// if (nota >= 9) {
-//     console.log("Nota excelente!");
-// } else if (nota >= 7) {
-//     console.log("Nota regular!");
-// } else if (nota >= 5) {
-//     console.log("Nota ruim!");
-// } else if (nota >= 3) {
-//     console.log("Nota péssima!");
-// } else {
-//     console.log("Nota muito abaixo!");
-// }
+let tabuada = 5; // Defina aqui o número da tabuada que deseja calcular
 
-// let nota = 8;
-// let frequencia = 80;
-
-// if (nota >= 7 && frequencia >= 75){
-//     console.log("Aluno aprovado!");
-// }else if(nota >= 5 && frequencia >=60){
-//     console.log("Aluno de recuperação!");
-// }else{
-//     console.log("Aluno reprovado!");
-// }
-let numeroUm = -15;
-let numeroDois = 153;
-let numeroTres = -90;
-
-if (numeroUm > 0) {
-    console.log(`O Número ${numeroUm} é positivo`);
-} else {
-    console.log(`O Número ${numeroUm} é negativo`);
-}
-
-if (numeroDois > 0) {
-    console.log(`O Número ${numeroDois} é positivo`);
-} else {
-    console.log(`O Número ${numeroDois} é negativo`);
-}
-
-if (numeroTres > 0) {
-    console.log(`O Número ${numeroTres} é positivo`);
-} else {
-    console.log(`O Número ${numeroTres} é negativo`);
-}
-
-
-let numeroQuatro = 3456;
-let numeroCinco = 8857;
-let numeroSeis = 16561561546512;
-
-if (numeroQuatro % 2 === 0) {
-    console.log(`O Número ${numeroQuatro} é par`);
-} else {
-    console.log(`O Número ${numeroQuatro} é ímpar`);
-}
-
-if (numeroCinco % 2 === 0) {
-    console.log(`O Número ${numeroCinco} é par`);
-} else {
-    console.log(`O Número ${numeroCinco} é ímpar`);
-}
-
-if (numeroSeis % 2 === 0) {
-    console.log(`O Número ${numeroSeis} é par`);
-} else {
-    console.log(`O Número ${numeroSeis} é ímpar`);
+for (let i = 1; i <= 10; i += 1) {
+    console.log(`${tabuada} X ${i} =${tabuada * i}`);
 }
