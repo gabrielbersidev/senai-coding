@@ -1,3 +1,4 @@
+
 package com.example.demo.controllers;
 
 import java.util.List;
@@ -9,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.http.ResponseEntity;
 
 import com.example.demo.services.ProdutoService;
 import com.example.demo.entities.Produto;
@@ -41,5 +44,19 @@ public class ProdutoController {
     @DeleteMapping("/{id}")
     public void deletarProduto(@PathVariable Long id) {
         produtoService.excluirProduto(id);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Produto> updateProduto(
+            @PathVariable Long id,
+            @RequestBody Produto novoProduto) {
+
+        Produto produtoAtualizado = produtoService.updateProduto(id, novoProduto);
+
+        if (produtoAtualizado != null) {
+            return ResponseEntity.ok(produtoAtualizado);
+        } else {
+            return ResponseEntity.notFound().build();
+        }
     }
 }

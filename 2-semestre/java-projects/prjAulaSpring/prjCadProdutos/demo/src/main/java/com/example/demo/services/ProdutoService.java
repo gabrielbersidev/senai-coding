@@ -1,5 +1,6 @@
 package com.example.demo.services;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -29,5 +30,22 @@ public class ProdutoService {
 
     public void excluirProduto(Long id){
         produtoRepository.deleteById(id);
+    }
+
+    public Produto updateProduto(Long id, Produto novoProduto){
+        Optional<Produto> produtoOptional = produtoRepository.findById(id);
+
+        if(produtoOptional.isPresent()){
+            // Update
+            Produto produtoExistente = produtoOptional.get();
+
+            produtoExistente.setNome(novoProduto.getNome());
+            produtoExistente.setPreco(novoProduto.getPreco());
+
+            return produtoRepository.save(produtoExistente);
+            
+        } else{
+            return null;
+        }
     }
 }
