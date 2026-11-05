@@ -324,3 +324,106 @@ console.log(triplicados);
 const listaNomes = ["ana", "bruno", "carla"];
 const maiusculas = listaNomes.map(nome => nome.toUpperCase());
 console.log(maiusculas);
+
+
+//
+
+const precos = [10, 20, 30, 40];
+const precosComAumento = precos.map(p => p * 1.1);
+console.log(precosComAumento);
+
+//
+
+const sequencia = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const pares = sequencia.filter(n => n % 2 === 0);
+console.log(pares);
+
+//
+
+const impares = sequencia.filter(n => n % 2 !== 0);
+console.log(impares);
+
+//
+
+const idades = [12, 18, 25, 14, 30, 16];
+const maiores = idades.filter(idade => idade >= 18);
+console.log(maiores);
+
+//
+
+
+const notas = [5, 8, 6, 9, 10, 4, 7];
+const aprovadas = notas.filter(nota => nota >= 7);
+console.log(aprovadas);
+
+//
+
+const listaNums = [5, 12, 8, 20, 3];
+const primeiroMaiorQueDez = listaNums.find(n => n > 10);
+console.log(primeiroMaiorQueDez);
+
+//
+
+const nomesArray = ["Ana Julia", "Brunao", "Caioo gabriel", "Felipe"];
+const encontraCarlos = nomesArray.find(nome => nome === "Felipe");
+console.log(encontraCarlos);
+
+//
+
+const notasLista = [8, 9, 4, 7, 5];
+const primeiraBaixa = notasLista.find(nota => nota < 6);
+console.log(primeiraBaixa);
+
+//
+
+const numsCheck = [3, 5, -2, 8, 10];
+const temNegativo = numsCheck.some(n => n < 0);
+console.log(temNegativo);
+
+//
+
+const notasTurma = [3, 5, 6, 8, 4];
+const temAprovado = notasTurma.some(nota => nota >= 7);
+console.log(temAprovado);
+
+//
+
+const positivos = [2, 4, 6, 8, 10];
+const todosPositivos = positivos.every(n => n > 0);
+console.log(todosPositivos);
+
+//
+
+const notasClasse = [7, 8, 9, 10, 6];
+const todosAprovados = notasClasse.every(nota => nota >= 7);
+console.log(todosAprovados);
+
+//
+
+const valores = [10, 20, 30, 40];
+const somaTotal = valores.reduce((acc, curr) => acc + curr, 0);
+console.log(somaTotal);
+
+//
+
+const notasAluno = [6, 8, 7, 9];
+const somaNotas = notasAluno.reduce((acc, curr) => acc + curr, 0);
+const mediaFinal = somaNotas / notasAluno.length;
+console.log(mediaFinal);
+
+//
+
+const alunos = [
+    { nome: "Gabriel", nota: 8 },
+    { nome: "Isabella", nota: 5 },
+    { nome: "Isabela", nota: 9 },
+    { nome: "Arthur", nota: 6 },
+    { nome: "Giovana", nota: 7 }
+];
+
+const nomesAprovados = alunos
+    .filter(aluno => aluno.nota >= 7)
+    .map(aluno => aluno.nome);
+
+console.log(nomesAprovados);
+
