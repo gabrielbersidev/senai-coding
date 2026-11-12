@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Cachorros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Galeria de Cachorros</h1>
 
-    <label for="racas">
-        <select id="racas">
-            <option value="">Selecione uma raça</option>
-        </select>
-    </label>
+    <div class="controles">
+        <label for="racas">
+            <select id="racas">
+                <option value="">Selecione uma raça</option>
+            </select>
+        </label>
 
-    <label for="quantidade">
-        <input type="number" id="quantidade" min="1" max="10" value="3">
-    </label>
+        <label for="quantidade">
+            <input type="number" id="quantidade" min="1" max="10" value="3">
+        </label>
 
-    <button id="aleatorios">Mostrar aleatórios</button>
-    <button id="porRaca">Mostrar 3 da raça</button>
+        <button id="aleatorios">Mostrar aleatórios</button>
+        <button id="porRaca">Mostrar 3 da raça</button>
+    </div>
 
     <p id="mensagem"></p>
 
